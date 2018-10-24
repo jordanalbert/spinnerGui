@@ -1,0 +1,46 @@
+.root {
+    -fx-background-image: url("/img/purple.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+    -fx-background-size: cover;
+}
+
+.button {
+    -fx-background-color: #310350;
+    -fx-text-fill: white;
+    
+    -fx-effect: dropshadow(three-pass-box, black, 10, .3, 0, 0);
+}
+
+.button:hover {
+    -fx-background-color: purple;
+    -fx-text-fill: white;
+}
+
+
+
+#gridContainer > .viewport {
+    -fx-background-color: transparent;
+}
+
+#gridContainer {
+    -fx-background-color: transparent;
+}
+
+.grid-pane {
+    -fx-hgap: 4;
+    -fx-vgap: 10;
+}
+
+.text-label {
+    -fx-font-size: 20px;
+    -fx-text-fill: white;
+    -fx-text-align: right;
+}
+
+#categoryDrpDwnLabel {
+    -fx-text-fill: white;
+}
+
+
+
